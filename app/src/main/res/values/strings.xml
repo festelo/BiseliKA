@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BiseliKA</string>
+    <string-array name="words">
+        <item>Москва</item>
+        <item>Солнце</item>
+        <item>Мышка</item>
+        <item>Муравей</item>
+        <item>Зубочистка</item>
+        <item>Антарктида</item>
+    </string-array>
+</resources>
