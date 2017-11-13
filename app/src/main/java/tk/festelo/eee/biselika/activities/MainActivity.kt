@@ -60,7 +60,7 @@ class MainActivityUI : AnkoComponent<MainActivity> {
                             resetGame()
                         }
 
-                        UpdateUI()
+                        updateUI()
                     }
                 }
             }
@@ -68,11 +68,11 @@ class MainActivityUI : AnkoComponent<MainActivity> {
                 textView("Attempts left: ")
                 attemptsTextView = textView()
             }
-            UpdateUI()
+            updateUI()
         }
     }.view
 
-    fun UpdateUI(){
+    fun updateUI(){
         wordTextView.text = game.hiddenWord
         attemptsTextView.text = (game.maxAttemptsCount - game.attemptsCount).toString()
     }
